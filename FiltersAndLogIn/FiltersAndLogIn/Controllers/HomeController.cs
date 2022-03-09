@@ -34,7 +34,6 @@ namespace FiltersAndLogIn.Controllers
 
         public ActionResult UnAuthorized()
         {
-
             return View();
         }
     }

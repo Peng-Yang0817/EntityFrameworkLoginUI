@@ -34,7 +34,7 @@ namespace FiltersAndLogIn.Controllers
                     }
                     else
                     {
-                        ModelState.AddModelError("", "Invalid User Name or Password");
+                        ModelState.AddModelError("", "Invalid User ID or Password");
                         return View(model);
                     }
                 }
